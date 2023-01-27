@@ -3,15 +3,18 @@ body{
     background-color: #F5F7FA;
     
 }
-
+img{
+    padding: 0 20px;
+}
 .container{
     display: flex;
     flex-direction: row-reverse;
     max-width: 798px;
+    max-height: 1128px;
     
     
     background-color: #fff;
-    margin: 40px auto;
+    
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }    
 
@@ -36,7 +39,8 @@ body{
 /* Main contact section */
 
 .contact_section{
-    padding: 20px;
+    padding: 0 20px 0 20px;
+    /* width: 497px; */
 }
  /* @media screen and (min-width: 480px) {
      .contact_section {
@@ -67,7 +71,7 @@ body{
 /* About me section */
 .me_section{
     margin: 0 0 20px 0 ;
-    max-width: 830px;
+    /* max-width: 830px; */
 }
  /* @media screen and (min-width: 480px) {
      .me_section {
@@ -104,11 +108,11 @@ body{
     margin: 0;
 }
 .about-me-description{
-    max-width: 554px;
+    /* max-width: 554px; */
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     color: #595959;
     margin-bottom: 10px;
 }
@@ -174,14 +178,15 @@ body{
     color: #000;
 }
 .My-work-experience-duties{
-    padding: 0 0 0 17px;
+    padding: 0 0 0 10px;
+   
 }
 .My-work-experience-duty{
-    Width: 400px;
+    /* Width: 400px; */
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     color: #595959;
     
 }
@@ -211,7 +216,7 @@ body{
 
 .sidebar-section{
     background-color: #1E2939;
-    max-width: 370px;
+    width: 280px;
     padding: 20px 0;
     text-decoration: none;
 }
@@ -237,7 +242,7 @@ body{
  } */
 .contacts-section,
 .Tech-skills-section{  
-margin: 20px 0 0 40px;
+margin: 0 0 0 20px;
 
 }
  
@@ -267,7 +272,7 @@ margin: 20px 0 0 40px;
 }
 /* tech skills section */
 .Tech-skills-list{
-padding: 0 0 0 17px;
+padding: 0 0 0 20px;
 }
 .Tech-skills-item{
  color: #FB6D3A;  
@@ -280,7 +285,7 @@ padding: 0 0 0 17px;
     color: white;
 }
 .Soft-skills-section{
-margin: 50px 0 0 40px;
+margin: 0 0 0 20px;
 }
 .soft-skills{
     font-style: normal;
@@ -288,9 +293,11 @@ margin: 50px 0 0 40px;
     font-size: 22px;
     line-height: 27px;
     color: #fff;
+    margin: 0;
 }
 .soft-skills-list{
-    padding: 0 0 0 17px;
+    padding: 0 0 0 20px;
+   
 }
 .soft-skills-item{
     color: #FB6D3A;
